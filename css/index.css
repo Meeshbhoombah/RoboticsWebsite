@@ -1,28 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@font-face {
-    font-family: AvenirNextCondensed;
-    src: url(../assets/fonts/avenir-next-regular.ttf);
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 
-#body-font {
-	padding: 8px;
-	font-family: AvenirNextCondensed;
-	font-weight: 800;
-	font-size: 14px;
-	letter-spacing: 1px;
-	color: #00D17C;
-}
-
-.link {
-	color: black;
-}
-
-.link:hover {
-	color: black;
-	text-decoration: none;
-}
-
-/* about.css */
+/* Nav Styling */
 nav ul li a {
 	color: #ffffff;
 }
@@ -32,6 +11,23 @@ nav ul li a:hover {
 	color: #00D17C;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.5;
+	color: #00D17C;
+}
+
+/* Font Styling */
+.header {
+	margin-top: -8px;
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 1.5em;
+	letter-spacing: 2;
+	color: #000000;
+}
+
 .intro {
 	max-width: 100%;
 	min-height: 100%;
@@ -39,25 +35,20 @@ nav ul li a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
 }
 
 .about {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	font-family: Oswald;
-	font-weight: 400;
-	font-size: 1.5em;
-	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .btn {
   	-webkit-border-radius: 2;
   	-moz-border-radius: 2;
   	border-radius: 2px;
-	background-color: #ffffff;
-  	font-family: Oswald;
-	font-size: 14px;
+	background-color: transparent;
+	font-size: 0.8em;
   	color: #00D17C;
   	padding: 13px 16px 13px 16px;
   	border: solid #00D17C 2px;
