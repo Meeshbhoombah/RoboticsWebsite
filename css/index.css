@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@font-face {
+    font-family: AvenirNextCondensed;
+    src: url(../assets/fonts/avenir-next-regular.ttf);
+}
+
+#body-font {
+	padding: 8px;
+	font-family: AvenirNextCondensed;
+	font-weight: 800;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #00D17C;
+}
+
+.link {
+	color: black;
+}
+
+.link:hover {
+	color: black;
+	text-decoration: none;
+}
+
+/* about.css */
+nav ul li a {
+	color: #ffffff;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #00D17C;
+}
+
+.intro {
+	max-width: 100%;
+	min-height: 100%;
+	background-image: url(../assets/images/clifton_win.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+.btn {
+  	-webkit-border-radius: 2;
+  	-moz-border-radius: 2;
+  	border-radius: 2px;
+	background-color: #ffffff;
+  	font-family: Oswald;
+	font-size: 14px;
+  	color: #00D17C;
+  	padding: 13px 16px 13px 16px;
+  	border: solid #00D17C 2px;
+  	text-decoration: none;
+	letter-spacing: 2px;
+	transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  	background: #00D17C;
+  	text-decoration: none;
+	color: #ffffff;
+}
