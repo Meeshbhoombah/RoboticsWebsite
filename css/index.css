@@ -4,6 +4,7 @@
 /* Nav Styling */
 nav ul li a {
 	color: #ffffff;
+	transition: all 0.3s ease 0s;
 }
 
 nav ul li a:hover {
@@ -15,12 +16,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.5;
-	color: #00D17C;
+	color: #000000;
 }
 
 /* Font Styling */
 .header {
-	margin-top: -8px;
 	font-family: Oswald;
 	font-weight: 400;
 	font-size: 1.5em;
@@ -28,9 +28,26 @@ body {
 	color: #000000;
 }
 
+p a {
+	color: #00D17C;
+	font-weight: 700;
+	transition: all 0.3s ease 0s;
+}
+
+p a::selection {
+	background-color: #00D17C;
+	color: #000000;
+}
+
+p a:hover {
+	color: #00D17C;
+	text-decoration: none;
+}
+
+/* Section Styling */
 .intro {
 	max-width: 100%;
-	min-height: 100%;
+	min-height: 90%;
 	background-image: url(../assets/images/clifton_win.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -41,6 +58,10 @@ body {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	font-family: 'Open Sans', sans-serif;
+}
+
+.about .header {
+	margin-top: -8px;
 }
 
 .btn {
@@ -61,4 +82,13 @@ body {
   	background: #00D17C;
   	text-decoration: none;
 	color: #ffffff;
+}
+
+.events {
+	padding: 10px 0 10px 0;
+	background-color: #00D17C;
+}
+
+#upcoming {
+	border-right: thin solid #000000;
 }
