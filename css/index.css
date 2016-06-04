@@ -90,5 +90,6 @@ p a:hover {
 }
 
 #upcoming {
-	border-right: thick solid #000000;
+	padding-left: 5px;
+	border-right: medium solid #000000;
 }
