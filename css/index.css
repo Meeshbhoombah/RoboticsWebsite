@@ -31,17 +31,16 @@ body {
 p a {
 	color: #00D17C;
 	font-weight: 700;
-	transition: all 0.3s ease 0s;
-}
-
-p a::selection {
-	background-color: #00D17C;
-	color: #000000;
 }
 
 p a:hover {
 	color: #00D17C;
 	text-decoration: none;
+}
+
+p a::selection {
+	background-color: #00D17C;
+	color: #000000;
 }
 
 /* Section Styling */
@@ -52,6 +51,38 @@ p a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.intro .container .row {
+	margin-top: 10%;
+}
+
+.intro h1 {
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 5em;
+	letter-spacing: 4;
+	color: #00D17C;
+}
+
+.intro img {
+	margin-top: 20%;
+	max-height: 20em;
+	width: auto;
+}
+
+.events {
+	padding: 10px 0 10px 0;
+	background-color: #00D17C;
+}
+
+.events h1 {
+	color: #ffffff;
+}
+
+#upcoming {
+	padding-left: 5px;
+	border-right: medium solid #ffffff;
 }
 
 .about {
@@ -82,14 +113,4 @@ p a:hover {
   	background: #00D17C;
   	text-decoration: none;
 	color: #ffffff;
-}
-
-.events {
-	padding: 10px 0 10px 0;
-	background-color: #00D17C;
-}
-
-#upcoming {
-	padding-left: 5px;
-	border-right: medium solid #000000;
 }
