@@ -12,13 +12,13 @@ nav {
 .right {
 	position: absolute;
 	padding-top: 50px;
-	right: 57;
+	right: 30;
 }
 
 .left {
 	position: absolute;
 	padding-top: 50px;
-	left: 60;
+	left: 30;
 }
 
 nav ul {
@@ -33,9 +33,9 @@ nav ul li {
 
 /* Font Styling */
 p::selection {
-	background: #00D17C; /* WebKit/Blink Browsers */
+	background: #00D17C;
 }
 
 p::-moz-selection {
- 	background: #00D17C; /* Gecko Browsers */
+ 	background: #00D17C;
 }
