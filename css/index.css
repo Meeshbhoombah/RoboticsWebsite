@@ -82,7 +82,7 @@ p a::selection {
 
 #upcoming {
 	padding-left: 5px;
-	border-right: medium solid #ffffff;
+	border-right: medium solid #000000;
 }
 
 .about {
