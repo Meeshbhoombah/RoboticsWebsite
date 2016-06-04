@@ -47,7 +47,7 @@ p a:hover {
 /* Section Styling */
 .intro {
 	max-width: 100%;
-	min-height: 90%;
+	min-height: 85%;
 	background-image: url(../assets/images/clifton_win.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -90,5 +90,6 @@ p a:hover {
 }
 
 #upcoming {
-	border-right: thin solid #000000;
+	padding-left: 5px;
+	border-right: medium solid #000000;
 }
